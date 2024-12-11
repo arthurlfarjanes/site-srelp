@@ -1,0 +1,39 @@
+.section-aboutUs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: auto;
+  gap: 10px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.123);
+  background-color: var(--roxo-forte);
+  border-radius: 6px;
+}
+
+.imageFormat {
+  width: 55%;
+  border-radius: 6px 0px 0px 6px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.123);
+}
+
+.align-about-us {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: fit-content;
+  gap: 15px;
+  padding-right: 25px;
+}
+
+.align-about-us h3 {
+  color: var(--branco);
+  font-size: 30px;
+}
+
+.section-aboutUs p {
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  color: var(--branco);
+}

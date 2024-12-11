@@ -1,0 +1,29 @@
+.ScrollTopBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  border-radius: 100%;
+  border: 0;
+  z-index: 10;
+  background-color: var(--roxo);
+  cursor: pointer;
+  bottom: 30px;
+  right: 40px;
+}
+
+.ScrollTopBtn:hover {
+  background-color: var(--roxo-forte);
+  transition: 0.4s;
+}
+
+.displayBtnNone {
+  display: none;
+}
+
+.ScrollTopBtn img {
+  width: 70%;
+}

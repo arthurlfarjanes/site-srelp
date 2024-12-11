@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==== PALETA DE CORES ====*/
+:root {
+  --roxo-escuro: #242038ff;
+  --roxo: #725ac1ff;
+  --roxo-forte: rgba(106, 54, 148, 0.856);
+  --roxo-claro: #8d86c9ff;
+  --rosa: #C952D9;
+  --amarelo: #e2d34a;
+  --cinza: #cac4ceff;
+  --cinza-claro: rgba(226, 216, 206, 0.623);
+  --branco: #f7ece1ff;
+}
+
+body {
+  background-color: var(--cinza-claro);
+  color: var(--roxo-escuro);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.small-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.medium-icon {
+  width: 35px;
+  height: 30px;
+}
+
+.divisor {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: var(--roxo-forte);
+}
+
+.divisor-white {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: var(--branco);
+}
+
+.divisor-smaller {
+  display: block;
+  height: 1px;
+  width: 90%;
+  background-color: var(--roxo-forte);
+}
