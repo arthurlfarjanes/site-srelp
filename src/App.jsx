@@ -14,15 +14,7 @@ function App() {
     <>
       <MenuContextProvider>
         <div className="App">
-          <BrowserRouter>
-            <Routes>
-              {/* ==== ROTA PRINCIPAL ==== */}
-              <Route path="/srelp" element={<LandingPage />} />
-
-              {/* ==== ROTA 404 ==== */}
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </BrowserRouter>
+          <LandingPage />
         </div>
       </MenuContextProvider>
     </>
