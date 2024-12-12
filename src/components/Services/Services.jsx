@@ -10,7 +10,6 @@ import image3 from "../../assets/images/leasing.jpg";
 import image4 from "../../assets/images/office.jpg";
 import image5 from "../../assets/images/portfolio.jpg";
 import image6 from "../../assets/images/compliance.webp";
-import image7 from "../../assets/images/probono.jpg";
 import setaBaixo from "../../assets/images/chevron-down.png";
 import setaCima from "../../assets/images/chevron-up.png";
 import check from "../../assets/images/accept.png";
