@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 426px) {
-  .alignNavbar{
+  .alignNavbar {
     flex-direction: column;
     gap: 10px;
   }

@@ -35,7 +35,7 @@
 }
 
 @media (max-width: 426px) {
-  .LandingPage{
+  .LandingPage {
     gap: 120px;
   }
 
@@ -44,7 +44,7 @@
     margin-top: -120px;
   }
 
-  .section-top h1{
+  .section-top h1 {
     font-size: 25px !important;
   }
 
@@ -58,7 +58,6 @@
   color: var(--escuro);
   font-style: italic;
   text-shadow: 0px 0px 3.5px var(--prata);
-
 }
 
 .section-top h2 {

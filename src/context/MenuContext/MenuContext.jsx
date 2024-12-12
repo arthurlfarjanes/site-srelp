@@ -9,7 +9,11 @@ export const MenuContextProvider = ({ children }) => {
     setIsMenuOpen((prev) => !prev);
   };
 
-  return <MenuContext.Provider value={{isMenuOpen, toggleMenu}}>{children}</MenuContext.Provider>;
+  return (
+    <MenuContext.Provider value={{ isMenuOpen, toggleMenu }}>
+      {children}
+    </MenuContext.Provider>
+  );
 };
 
 export const useMenu = () => useContext(MenuContext);

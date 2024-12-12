@@ -57,7 +57,7 @@ function Services() {
                   }}
                   className="show-more-btn"
                 >
-                  Show {showMore1 ? "Less" : "More"}{" "}
+                  Show {showMore1 ? "Less" : "More"}
                   <img
                     className="small-icon"
                     src={showMore1 ? setaCima : setaBaixo}
@@ -126,7 +126,7 @@ function Services() {
                   }}
                   className="show-more-btn"
                 >
-                  Show {showMore2 ? "Less" : "More"}{" "}
+                  Show {showMore2 ? "Less" : "More"}
                   <img
                     className="small-icon"
                     src={showMore2 ? setaCima : setaBaixo}
@@ -193,7 +193,7 @@ function Services() {
                   }}
                   className="show-more-btn"
                 >
-                  Show {showMore3 ? "Less" : "More"}{" "}
+                  Show {showMore3 ? "Less" : "More"}
                   <img
                     className="small-icon"
                     src={showMore3 ? setaCima : setaBaixo}
@@ -264,7 +264,7 @@ function Services() {
                   }}
                   className="show-more-btn"
                 >
-                  Show {showMore4 ? "Less" : "More"}{" "}
+                  Show {showMore4 ? "Less" : "More"}
                   <img
                     className="small-icon"
                     src={showMore4 ? setaCima : setaBaixo}
@@ -324,7 +324,7 @@ function Services() {
                   }}
                   className="show-more-btn"
                 >
-                  Show {showMore5 ? "Less" : "More"}{" "}
+                  Show {showMore5 ? "Less" : "More"}
                   <img
                     className="small-icon"
                     src={showMore5 ? setaCima : setaBaixo}
