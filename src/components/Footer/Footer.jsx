@@ -4,7 +4,7 @@ import "./Footer.css";
 // Images
 import reactLogo from "../../assets/images/react.svg";
 import gmailLogo from "../../assets/images/gmail.png";
-import Casa from "../../assets/images/casa.png"
+import Logo from "../../assets/images/logo-completo.png"
 
 // External Libs
 import Tooltip from "@mui/material/Tooltip";
@@ -14,31 +14,6 @@ function Footer() {
     <>
       <div className="Footer">
         <div className="background">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
           <div className="align-footer-column">
             <div className="footer-column">
               <div className="divLogo">
@@ -61,7 +36,7 @@ function Footer() {
               </ul>
             </div>
             <div className="footer-column">
-              <img src={Casa} alt="" className="iconCasa" />
+              <img src={Logo} alt="" className="iconCasa" />
             </div>
             <div className="footer-column">
               <h3>Contact Us</h3>

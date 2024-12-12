@@ -5,7 +5,7 @@
   width: 100%;
   height: auto;
   border-radius: 0px 100px 0px 0px;
-  border: 1px solid var(--roxo-forte);
+  border: 2px solid var(--bege);
   border-bottom: 0;
   border-right: 0;
   border-left: 0;
@@ -31,25 +31,10 @@
 }
 
 @media (max-width: 1024px) {
-  .pro-bono-service {
+  .pro-bono-content {
     align-items: center !important;
     justify-content: center !important;
     flex-direction: column !important;
-  }
-
-  .align-pro-bono-service {
-    align-items: center !important;
-    justify-content: center !important;
-    flex-direction: column !important;
-  }
-
-  .pro-bono-text {
-    width: 95% !important;
-  }
-
-  .pro-bono-image {
-    width: 90% !important;
-    padding-left: 0px !important;
   }
 }
 
@@ -85,7 +70,7 @@
 }
 
 .section-services h3 {
-  color: var(--roxo-forte);
+  color: var(--bege);
   font-size: 30px;
 }
 
@@ -93,7 +78,7 @@
   font-size: 24px;
   font-weight: normal;
   font-style: italic;
-  color: var(--roxo-escuro);
+  color: var(--mais-escuro);
 }
 
 .align-all-services {
@@ -111,7 +96,7 @@
   flex-direction: column;
   align-items: center;
   width: 40%;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .align-service {
@@ -122,7 +107,7 @@
   width: 100%;
   height: auto;
   box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.123);
-  border-radius: 6px;
+  border-radius: 8px;
   transition: height 0.4s ease;
 }
 
@@ -138,6 +123,7 @@
   text-align: center;
   width: 95%;
   padding: 15px 0px 0px 0px;
+  font-family: "Inter", sans-serif;
 }
 
 .card-service {
@@ -151,6 +137,7 @@
 }
 
 .card-service p {
+  font-family: "Inter", sans-serif;
   width: 70%;
   padding: 10px 0px;
 }
@@ -162,14 +149,10 @@
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: radial-gradient(
-    circle,
-    rgba(114, 90, 193, 1) 0%,
-    rgba(141, 134, 201, 1) 35%,
-    rgba(201, 82, 217, 1) 100%
-  );
+  background: radial-gradient(circle, #181822 0%, #272838 35%, #303244 100%);
   color: var(--branco);
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
 }
 
 .title-alignment {
@@ -220,14 +203,16 @@
   justify-content: space-around;
   width: 150px;
   height: 30px;
-  border-radius: 6px;
-  background-color: var(--roxo-forte);
+  border-radius: 8px;
+  background-color: var(--escuro);
   color: var(--branco);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
   margin: 20px 0px;
 }
 
 .show-more-btn:hover {
-  background-color: rgba(69, 27, 104, 0.856);
+  background-color: var(--bege);
   color: var(--branco);
   cursor: pointer;
   transition: 0.4s ease;
@@ -267,6 +252,7 @@
 }
 
 .column-service p {
+  font-family: "Inter", sans-serif;
   font-size: 17px;
 }
 
@@ -280,7 +266,7 @@
 
 .column-service-image img {
   width: 100%;
-  border-radius: 6px;
+  border-radius: 8px;
   box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.123);
 }
 
@@ -291,45 +277,57 @@
   gap: 20px;
 }
 
-.pro-bono-service {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
-  background-color: var(--branco);
-  border-radius: 6px;
-  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.123);
-}
+/*==== PRO BONO ====*/
 
-.align-pro-bono-service {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 95%;
-  height: auto;
-  padding: 30px 0px;
-  gap: 50px;
-}
-
-.pro-bono-text {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 50%;
-}
-
-.pro-bono-image {
+.all-in-pro-bono {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
-  height: 100%;
-  padding-left: 30px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: url("../../assets/images/casa-luxo.webp");
+  border-radius: 30px;
+  background-size: cover; /* Garante que a imagem preenche o espaço */
+  background-position: center; /* Centraliza a imagem */
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.123);
+  overflow: hidden;
 }
 
-.pro-bono-image img {
+.overlay-bigger {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  border-radius: 30px;
 }
+
+.pro-bono-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+  position: relative;
+  z-index: 2;
+  color: var(--branco);
+  gap: 30px;
+  padding: 50px 0px;
+}
+
+.pro-bono-content h3 {
+  font-size: 32px;
+  align-self: flex-start;
+  color: var(--bege-claro);
+}
+
+.pro-bono-content p {
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  color: var(--branco);
+}
+

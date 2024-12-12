@@ -1,3 +1,12 @@
+/* .all-in-section-aboutUs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+} */
+
 .section-aboutUs {
   display: flex;
   flex-direction: row;
@@ -7,8 +16,8 @@
   height: auto;
   gap: 10px;
   box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.123);
-  background-color: var(--roxo-forte);
-  border-radius: 6px;
+  background-color: var(--bege);
+  border-radius: 8px;
 }
 
 @media (min-width: 426px) and (max-width: 1024px) {

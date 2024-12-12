@@ -9,15 +9,15 @@
   border-radius: 100%;
   border: 0;
   z-index: 10;
-  background-color: var(--roxo-forte);
-  box-shadow: 0px 0px 5px 2px var(--rosa);
+  background-color: var(--bege);
+  box-shadow: 0px 0px 5px 2px var(--prata);
   cursor: pointer;
   bottom: 30px;
   right: 40px;
 }
 
 .ScrollTopBtn:hover {
-  background-color: var(--roxo-forte);
+  background-color: var(--bege-escuro);
   transform: scale(1.1);
   transition: 0.4s;
 }

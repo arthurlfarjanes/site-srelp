@@ -13,7 +13,7 @@ import { Tooltip } from "@mui/material";
 
 // Images
 import menuIcon from "../../assets/images/menu.png";
-import Casa from "../../assets/images/casa.png";
+import Logo from "../../assets/images/logo-completo.png";
 
 function Header() {
   const { isMenuOpen, toggleMenu } = useMenu();
@@ -25,7 +25,7 @@ function Header() {
           <div className="alignHeader">
             <div className="align">
               <div className="divLogo">
-                <img src={Casa} alt="" className="iconCasa" />
+                <img src={Logo} alt="" className="iconCasa" />
                 <h1 className="h1">Strategic Real Estate Legal Partners</h1>
               </div>
               <Tooltip title="Close Menu">
@@ -47,7 +47,7 @@ function Header() {
           <div className="alignHeader">
             <div className="align">
               <div className="divLogo">
-                <img src={Casa} alt="" className="iconCasa" />
+                <img src={Logo} alt="" className="iconCasa" />
                 <h1 className="h1">Strategic Real Estate Legal Partners</h1>
               </div>
               <Tooltip title="Open Menu">

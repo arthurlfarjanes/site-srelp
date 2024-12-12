@@ -5,12 +5,13 @@
 
 /*==== PALETA DE CORES ====*/
 :root {
-  --roxo-escuro: #242038ff;
-  --roxo: #725ac1ff;
-  --roxo-forte: rgba(106, 54, 148, 0.856);
-  --roxo-claro: #8d86c9ff;
-  --rosa: #C952D9;
-  --amarelo: #e2d34a;
+  --escuro: #272838;
+  --prata: #C0B7B1;
+  --verde: #3F6C51;
+  --bege: #C69C72;
+  --bege-claro: #dfaf80;
+  --bege-escuro: #a37e58;
+  --mais-escuro: #181822;
   --cinza: #cac4ceff;
   --cinza-claro: rgba(226, 216, 206, 0.623);
   --branco: #f7ece1ff;
@@ -18,8 +19,9 @@
 
 body {
   background-color: var(--cinza-claro);
-  color: var(--roxo-escuro);
-  font-family: "Ubuntu", sans-serif;
+  color: var(--mais-escuro);
+  font-family: "Forum", sans-serif;
+  letter-spacing: 0.3px;
 }
 
 .small-icon {
@@ -36,7 +38,7 @@ body {
   display: block;
   height: 1px;
   width: 100%;
-  background-color: var(--roxo-forte);
+  background-color: var(--bege);
 }
 
 .divisor-white {
@@ -50,5 +52,5 @@ body {
   display: block;
   height: 1px;
   width: 90%;
-  background-color: var(--roxo-forte);
+  background-color: var(--bege);
 }

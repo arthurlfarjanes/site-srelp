@@ -11,8 +11,8 @@ import image4 from "../../assets/images/office.jpg";
 import image5 from "../../assets/images/portfolio.jpg";
 import image6 from "../../assets/images/compliance.webp";
 import image7 from "../../assets/images/probono.jpg";
-import setaBaixo from "../../assets/images/chevron-down-outline.svg";
-import setaCima from "../../assets/images/chevron-up-outline.svg";
+import setaBaixo from "../../assets/images/chevron-down.png";
+import setaCima from "../../assets/images/chevron-up.png";
 import check from "../../assets/images/accept.png";
 
 function Services() {
@@ -382,43 +382,39 @@ function Services() {
             </div>
           </div>
 
-          <div className="pro-bono-service">
-            <div className="align-pro-bono-service">
-              <div className="pro-bono-image">
-                <img src={image7} alt="Pro Bono" />
-              </div>
-              <div className="pro-bono-text">
-                <h3>
-                  Pro Bono: Real Estate Rental Listing for Low-Income Families
-                </h3>
-                <div className="divisor"></div>
-                <p>
-                  Our pro bono real estate rental listing service for low-income
-                  families begins with a thorough assessment of the families'
-                  housing needs and preferences. We work closely with local
-                  housing authorities, non-profit organizations, and community
-                  groups to identify available rental properties that meet the
-                  needs of lowincome families. We conduct a comprehensive search
-                  to identify suitable properties and arrange family property
-                  tours.
-                </p>
-                <p>
-                  Once a suitable property is found, we assist with the
-                  application and leasing process, providing guidance and
-                  support to ensure the families secure the rental housing they
-                  need. We also offer ongoing support throughout the lease term,
-                  addressing any issues or concerns that may arise and helping
-                  the families maintain stable housing.
-                </p>
-                <p>
-                  Our pro bono real estate rental listing service is designed to
-                  provide low-income families with safe, affordable housing
-                  access. We strive to create opportunities for these families
-                  to secure stable housing and improve their quality of life. By
-                  helping low-income families find and maintain affordable
-                  rental housing, we aim to positively impact our communities.
-                </p>
-              </div>
+          <div className="all-in-pro-bono">
+            <div className="overlay-bigger"></div>
+            <div className="pro-bono-content">
+              <h3>
+                Pro Bono: Real Estate Rental Listing for Low-Income Families
+              </h3>
+              <div className="divisor"></div>
+              <p>
+                Our pro bono real estate rental listing service for low-income
+                families begins with a thorough assessment of the families'
+                housing needs and preferences. We work closely with local
+                housing authorities, non-profit organizations, and community
+                groups to identify available rental properties that meet the
+                needs of lowincome families. We conduct a comprehensive search
+                to identify suitable properties and arrange family property
+                tours.
+              </p>
+              <p>
+                Once a suitable property is found, we assist with the
+                application and leasing process, providing guidance and support
+                to ensure the families secure the rental housing they need. We
+                also offer ongoing support throughout the lease term, addressing
+                any issues or concerns that may arise and helping the families
+                maintain stable housing.
+              </p>
+              <p>
+                Our pro bono real estate rental listing service is designed to
+                provide low-income families with safe, affordable housing
+                access. We strive to create opportunities for these families to
+                secure stable housing and improve their quality of life. By
+                helping low-income families find and maintain affordable rental
+                housing, we aim to positively impact our communities.
+              </p>
             </div>
           </div>
         </div>

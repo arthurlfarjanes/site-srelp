@@ -5,7 +5,7 @@ import "./ScrollTop.css";
 import { useState } from "react";
 
 // Image
-import upOutline from "../../assets/images/chevron-up-outline.svg";
+import upOutline from "../../assets/images/chevron-up.png";
 
 function ScrollTop() {
   const [visible, setVisible] = useState(false);

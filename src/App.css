@@ -25,13 +25,5 @@ html {
 }
 
 .highlight {
-  color: var(--roxo-forte);
-}
-
-.highlight-rosa {
-  color: var(--rosa);
-}
-
-.highlight-amarelo {
-  color: var(--amarelo);
+  color: var(--bege);
 }
