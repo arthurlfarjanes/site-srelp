@@ -217,6 +217,7 @@
 .show-more-btn:hover {
   background-color: var(--bege);
   color: var(--branco);
+  border: 1px solid var(--branco);
   cursor: pointer;
   transition: 0.4s ease;
 }
