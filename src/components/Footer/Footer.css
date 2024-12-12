@@ -37,6 +37,21 @@
     gap: 12px;
 }
 
+@media (max-width: 426px) {
+  .align-footer-column{
+    width: 90% !important;
+  }
+
+  .h1-footer{
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  .footer-column h3 {
+    font-size: 18px !important;
+  }
+}
+
 .footer-column h3 {
     font-size: 20px;
     color: var(--branco);

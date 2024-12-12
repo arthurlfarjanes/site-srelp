@@ -17,6 +17,25 @@
   width: 70%;
 }
 
+@media (max-width: 426px) {
+  .alignNavbar{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .alignNavbar h3 {
+    font-size: 17px !important;
+  }
+
+  .links {
+    width: 100% !important;
+  }
+
+  .links a {
+    font-size: 16px !important;
+  }
+}
+
 .alignNavbar h3 {
   font-size: 22px;
   font-style: italic;

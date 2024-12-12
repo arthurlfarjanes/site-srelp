@@ -11,6 +11,50 @@
   border-radius: 6px;
 }
 
+@media (min-width: 426px) and (max-width: 1024px) {
+  .section-aboutUs {
+    flex-direction: column;
+  }
+
+  .imageFormat {
+    width: 100% !important;
+  }
+
+  .align-about-us {
+    width: 90% !important;
+    padding-right: 0px !important;
+    padding-top: 15px;
+  }
+
+  .section-aboutUs p {
+    padding-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .section-aboutUs {
+    flex-direction: column;
+  }
+
+  .imageFormat {
+    width: 100% !important;
+  }
+
+  .align-about-us {
+    width: 90% !important;
+    padding-right: 0px !important;
+  }
+
+  .align-about-us h3 {
+    font-size: 25px !important;
+  }
+
+  .section-aboutUs p {
+    font-size: 15px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
 .imageFormat {
   width: 55%;
   border-radius: 6px 0px 0px 6px;

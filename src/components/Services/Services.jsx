@@ -45,6 +45,13 @@ function Services() {
                     <h4>Property Acquisition and Disposition</h4>
                   </div>
                 </div>
+                <div className="align-preview-service">
+                  <p>
+                    Our Property Acquisition and Disposition service begins with
+                    a detailed client consultation to understand their needs and
+                    goals...
+                  </p>
+                </div>
                 <div
                   onClick={() => {
                     setShowMore1((prev) => !prev);
@@ -58,18 +65,17 @@ function Services() {
                     alt=""
                   />
                 </div>
+
                 {showMore1 && (
                   <>
                     <div className="card-service">
                       <div className="numberIcon">1</div>
                       <p>
-                        Our Property Acquisition and Disposition service begins
-                        with a detailed client consultation to understand their
-                        needs and goals. We conduct market research to identify
-                        suitable properties, evaluate market trends and
-                        potential ROI, and assist with due diligence, including
-                        inspections, title searches, and environmental
-                        assessments, ensuring no hidden issues.
+                        We conduct market research to identify suitable
+                        properties, evaluate market trends and potential ROI,
+                        and assist with due diligence, including inspections,
+                        title searches, and environmental assessments, ensuring
+                        no hidden issues.
                       </p>
                     </div>
                     <div className="card-service">
@@ -108,6 +114,13 @@ function Services() {
                     <h4>Leasing and Tenant Representation</h4>
                   </div>
                 </div>
+                <div className="align-preview-service">
+                  <p>
+                    Our Leasing and Tenant Representation service provides
+                    tailored support for property owners seeking tenants or
+                    clients searching for rental spaces...
+                  </p>
+                </div>
                 <div
                   onClick={() => {
                     setShowMore2((prev) => !prev);
@@ -126,12 +139,9 @@ function Services() {
                     <div className="card-service">
                       <div className="numberIcon">1</div>
                       <p>
-                        Our Leasing and Tenant Representation service provides
-                        tailored support for property owners seeking tenants or
-                        clients searching for rental spaces. We offer market
-                        analysis, competitive pricing strategies, property
-                        marketing, tenant screening, and lease negotiation,
-                        managing the entire leasing process.
+                        We offer market analysis, competitive pricing
+                        strategies, property marketing, tenant screening, and
+                        lease negotiation, managing the entire leasing process.
                       </p>
                     </div>
                     <div className="card-service">
@@ -171,6 +181,13 @@ function Services() {
                     <h4>Investment and Portfolio Management</h4>
                   </div>
                 </div>
+                <div className="align-preview-service">
+                  <p>
+                    Our Investment and Portfolio Management service starts with
+                    assessing clients' goals, risk tolerance, and financial
+                    situation...
+                  </p>
+                </div>
                 <div
                   onClick={() => {
                     setShowMore3((prev) => !prev);
@@ -189,12 +206,9 @@ function Services() {
                     <div className="card-service">
                       <div className="numberIcon">1</div>
                       <p>
-                        Our Investment and Portfolio Management service starts
-                        with assessing clients' goals, risk tolerance, and
-                        financial situation. We create a tailored investment
-                        strategy—focused on growth, income, or balance—and
-                        identify opportunities through detailed market research
-                        and analysis.
+                        We create a tailored investment strategy—focused on
+                        growth, income, or balance—and identify opportunities
+                        through detailed market research and analysis.
                       </p>
                     </div>
                     <div className="card-service">
@@ -237,6 +251,14 @@ function Services() {
                     <h4>Property Management</h4>
                   </div>
                 </div>
+                <div className="align-preview-service">
+                  <p>
+                    Our property management service includes assessing
+                    properties, creating a tailored management plan, setting
+                    rental rates, marketing to attract tenants, and scheduling
+                    maintenance...
+                  </p>
+                </div>
                 <div
                   onClick={() => {
                     setShowMore4((prev) => !prev);
@@ -255,12 +277,8 @@ function Services() {
                     <div className="card-service">
                       <div className="numberIcon">1</div>
                       <p>
-                        Our property management service includes assessing
-                        properties, creating a tailored management plan, setting
-                        rental rates, marketing to attract tenants, and
-                        scheduling maintenance. We also manage tenant relations,
-                        including screening, leasing, rent collection, and lease
-                        enforcement.
+                        We also manage tenant relations, including screening,
+                        leasing, rent collection, and lease enforcement.
                       </p>
                     </div>
                     <div className="card-service">
@@ -373,6 +391,7 @@ function Services() {
                 <h3>
                   Pro Bono: Real Estate Rental Listing for Low-Income Families
                 </h3>
+                <div className="divisor"></div>
                 <p>
                   Our pro bono real estate rental listing service for low-income
                   families begins with a thorough assessment of the families'
@@ -385,19 +404,19 @@ function Services() {
                 </p>
                 <p>
                   Once a suitable property is found, we assist with the
-                  application and leasing process, providing guidance and support
-                  to ensure the families secure the rental housing they need. We
-                  also offer ongoing support throughout the lease term, addressing
-                  any issues or concerns that may arise and helping the families
-                  maintain stable housing.
+                  application and leasing process, providing guidance and
+                  support to ensure the families secure the rental housing they
+                  need. We also offer ongoing support throughout the lease term,
+                  addressing any issues or concerns that may arise and helping
+                  the families maintain stable housing.
                 </p>
                 <p>
                   Our pro bono real estate rental listing service is designed to
                   provide low-income families with safe, affordable housing
-                  access. We strive to create opportunities for these families to
-                  secure stable housing and improve their quality of life. By
-                  helping low-income families find and maintain affordable rental
-                  housing, we aim to positively impact our communities.
+                  access. We strive to create opportunities for these families
+                  to secure stable housing and improve their quality of life. By
+                  helping low-income families find and maintain affordable
+                  rental housing, we aim to positively impact our communities.
                 </p>
               </div>
             </div>
